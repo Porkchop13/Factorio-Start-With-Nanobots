@@ -1,0 +1,13 @@
+{
+    "name": "nanobots-start",
+    "version": "1.0.0",
+    "title": "Start With Nanobots",
+    "author": "Porkchop13",
+    "factorio_version": "1.0",
+    "dependencies": [
+        "base >= 1.0",
+        "stdlib >= 1.4.5",
+        "Nanobots >= 3.2.10"
+    ],
+    "description": "Allows starting the game with nanobots."
+}
