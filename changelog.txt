@@ -1,13 +1,13 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 2021.01.09
-  Bug Fixes:
-    - Remove pre-req technology from range/speed research when enabled at game start
+  Bugfixes:
+    - Remove pre-req technology from range/speed research when enabled at game start.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2021.01.09
-  Bug Fixes:
-    - Remove pre-req technology from range/speed research when enabled at game start
+  Bugfixes:
+    - Remove pre-req technology from range/speed research when enabled at game start.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2020.12.22

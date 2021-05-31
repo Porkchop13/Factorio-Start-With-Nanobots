@@ -7,7 +7,8 @@
     "dependencies": [
         "base >= 1.0",
         "stdlib >= 1.4.6",
-        "Nanobots >= 3.2.14"
+        "Nanobots >= 3.2.14",
+        "? SchallStartingInventory"
     ],
     "description": "Allows starting the game with nanobots."
 }
