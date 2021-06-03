@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2021.06.02
+  Bugfixes:
+    - Allow cliff explosive technology to be researched when enabled at game start.
+    - Added Schall Starting Inventory as optional dependency to ensure Nanobots remain in inventory
+---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 2021.01.09
   Bugfixes:
@@ -11,11 +17,10 @@ Date: 2021.01.09
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2020.12.22
-  Updates:
+  Changes:
     - Bump to Factorio version 1.1.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2020.12.22
-  New Features:
+  Features:
     - Initial release.
----------------------------------------------------------------------------------------------------

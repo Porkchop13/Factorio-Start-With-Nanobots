@@ -1,11 +1,11 @@
 {
     "name": "nanobots-start",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "title": "Start With Nanobots",
     "author": "Porkchop13",
     "factorio_version": "1.1",
     "dependencies": [
-        "base >= 1.0",
+        "base >= 1.1",
         "stdlib >= 1.4.6",
         "Nanobots >= 3.2.14",
         "? SchallStartingInventory"
