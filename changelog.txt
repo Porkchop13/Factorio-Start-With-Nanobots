@@ -1,26 +1,31 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.1.2
-Date: 2021.06.02
+Version: 1.1.3
+Date: 2022-03-12
   Bugfixes:
-    - Allow cliff explosive technology to be researched when enabled at game start.
+    - Give nanobots to each player as they join a multiplayer game
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2021-06-02
+  Bugfixes:
+    - Allow cliff explosive technology to be researched when enabled at game start
     - Added Schall Starting Inventory as optional dependency to ensure Nanobots remain in inventory
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.1
-Date: 2021.01.09
+Date: 2021-01-09
   Bugfixes:
-    - Remove pre-req technology from range/speed research when enabled at game start.
+    - Remove pre-req technology from range/speed research when enabled at game start
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
-Date: 2021.01.09
+Date: 2021-01-09
   Bugfixes:
-    - Remove pre-req technology from range/speed research when enabled at game start.
+    - Remove pre-req technology from range/speed research when enabled at game start
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
-Date: 2020.12.22
+Date: 2020-12-22
   Changes:
-    - Bump to Factorio version 1.1.
+    - Bump to Factorio version 1.1
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: 2020.12.22
+Date: 2020-12-22
   Features:
-    - Initial release.
+    - Initial release
