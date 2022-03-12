@@ -1,10 +1,11 @@
+name: Lint
+
 on:
   push:
     branches:
       - main
   workflow_dispatch:
 
-name: Lint
 jobs:
   lint:
     runs-on: ubuntu-latest
