@@ -10,5 +10,8 @@
         "Nanobots >= 3.2.14",
         "? SchallStartingInventory"
     ],
-    "description": "Allows starting the game with nanobots."
+    "description": "Allows starting the game with nanobots.",
+    "package": {
+        "no_portal_upload": true
+    }
 }
