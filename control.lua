@@ -31,7 +31,7 @@ local function addBots(event)
 end
 
 -- When a new player is created
-local function onPlayerCreated(event) addBots(event) end
+local function on_player_created(event) addBots(event) end
 
 -- When the cutscene is cancelled
 local function on_cutscene_cancelled(event)
