@@ -1,5 +1,5 @@
-local emitter = "gun-nano-emitter"
 local constructionAmmo = "ammo-nano-constructors"
+local emitter = "gun-nano-emitter"
 local termiteAmmo = "ammo-nano-termites"
 
 -- Add robots to a player's inventory
