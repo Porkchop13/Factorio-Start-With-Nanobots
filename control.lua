@@ -1,8 +1,6 @@
 local emitter = "gun-nano-emitter"
 local constructionAmmo = "ammo-nano-constructors"
 local termiteAmmo = "ammo-nano-termites"
-local constructionStacks = "nanobots-start-construction"
-local termiteStacks = "nanobots-start-termite"
 
 -- Add robots to a player's inventory
 local function addBots(event)
@@ -12,7 +10,8 @@ local function addBots(event)
     local itemPrototypes = game.item_prototypes
     if not itemPrototypes[emitter] then return end
 
-    local constructionStacks = settings.global[constructionStacks].value
+    local constructionStacks = settings.global["nanobots-start-construction"]
+                                   .value
     if constructionStacks > 0 and itemPrototypes[constructionAmmo] then
         player.insert {name = emitter, 1}
         player.insert {
@@ -21,7 +20,7 @@ local function addBots(event)
                 constructionStacks
         }
     end
-    local termiteStacks = settings.global[termiteStacks].value
+    local termiteStacks = settings.global["nanobots-start-termite"].value
     if termiteStacks > 0 and itemPrototypes[termiteAmmo] then
         player.insert {name = emitter, 1}
         player.insert {
