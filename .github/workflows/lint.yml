@@ -2,13 +2,14 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 name: Lint
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
       - name: lint
         uses: Roang-zero1/factorio-mod-luacheck@master
         with:
