@@ -1,6 +1,7 @@
 name: Publish
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'info.json' # Triggers only if the mod info file is updated
@@ -40,8 +41,8 @@ jobs:
       id: aar
       with:
         automatic_release_tag: "${{steps.version.outputs.prop}}"
-        title: "For factorio ${{steps.factorio_version.outputs.prop}}"
-        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        title: "v${{steps.version.outputs.prop}} for factorio ${{steps.factorio_version.outputs.prop}}"
+        repo_token: "${{secrets.GITHUB_TOKEN }}"
         prerelease: false
     - name: Download the file
       uses: suisei-cn/actions-download-file@v1
@@ -52,8 +53,8 @@ jobs:
     - run: cd temp && mv ${{steps.aar.outputs.automatic_releases_tag}}.zip ${{steps.mod_name.outputs.prop}}_${{steps.aar.outputs.automatic_releases_tag}}.zip
     - uses: TGNThump/factorio-publish-mod-action@v1
       with:
-        mod_portal_username: ${{ secrets.FACTORIO_USER }}
-        mod_portal_password: ${{ secrets.FACTORIO_PASSWORD }}
+        mod_portal_username: ${{secrets.FACTORIO_USER }}
+        mod_portal_password: ${{secrets.FACTORIO_PASSWORD }}
         mod_name: ${{steps.mod_name.outputs.prop}}
         asset_path: ./temp/${{steps.mod_name.outputs.prop}}_${{steps.aar.outputs.automatic_releases_tag}}.zip
         asset_name: ${{steps.aar.outputs.automatic_releases_tag}}
