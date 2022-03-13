@@ -3,7 +3,9 @@
 ![GitHub](https://img.shields.io/github/license/Porkchop13/Factorio-Start-With-Nanobots)
 
 # Factorio-Start-With-Nanobots
+
 Factorio mod allowing starting the game with Nanobots
 
 ---
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q3BKJE8)
