@@ -1,4 +1,4 @@
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Porkchop13/Factorio-Start-With-Nanobots)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/Porkchop13/Factorio-Start-With-Nanobots?label=release)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Porkchop13/Factorio-Start-With-Nanobots/Lint?label=lint)
 ![GitHub](https://img.shields.io/github/license/Porkchop13/Factorio-Start-With-Nanobots)
 
